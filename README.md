@@ -10,7 +10,7 @@ This is a simple chat application built in C++ using socket.io that allows multi
 
 🔹 Direct Messaging: Users can send private messages using the @username format.
 
-🔹 Chat History: All messages are logged into a file named chat_history.
+🔹 Chat History: All messages are stored into a file named chat_history.
 
 🔹 Real-time Communication: Clients receive messages instantly after they are sent by others.
 # File Structure
