@@ -59,7 +59,7 @@ Run the client
   ./client
 ```
 
-🔹 Send Messages: After entering your username, you can start typing messages. Messages sent will be broadcast to all connected clients.
+🔹 Group messages are not allowed for now. When a user joins the terminal, their arrival will be visible to all participants by a message, "username has joined the chat!"
 
 🔹 Direct Messages (DM): To send a direct message (DM) to a specific user, use the following format:
 ```bash
