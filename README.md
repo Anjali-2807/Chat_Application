@@ -68,6 +68,8 @@ Run the client
 ```
 🔹 To add more clients, simply open additional terminals and repeat the steps to run the client. Each client can join the chat with a different username.
 
+🔹 When a user exits the terminal by typing exit or pressing Ctrl+C on the terminal, a message appears on the terminal saying "username has left the chat."
+
 
 
 
