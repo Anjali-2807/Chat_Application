@@ -1,4 +1,18 @@
-Libraries used :
+Chat Application
+This is a simple client-server chat application built in C++ that allows multiple clients to communicate with each other. It supports direct messages (DM) between users, logs all communication, and can handle multiple users concurrently.
+
+Features
+Multiple Clients: Supports up to MAX_CLIENTS concurrent clients.
+Direct Messaging: Users can send private messages using the @username format.
+Chat History: All messages are logged into a chat_history file.
+Real-time Communication: Clients receive messages instantly after being sent by others.
+Libraries Used
+<netinet/in.h> – Provides definitions for Internet domain addresses and the socket API.
+<unistd.h> – Provides access to the POSIX operating system API (e.g., close()).
+Requirements
+Operating System: Linux-based system (Tested on Ubuntu)
+C++ Compiler: C++11 or later (e.g., GCC)
+Libraries:
 <iostream>
 <vector>
 <string>
@@ -9,26 +23,3 @@ Libraries used :
 <unistd.h>
 <algorithm>
 <map>
-
-Commands for running on VS Code terminal :
-
-cd ServerAndClients     // Goining to the respective directory/folder
-g++ server.cpp -o server -pthread -std=c++11    // Compiling the server.cpp code
-g++ client.cpp -o client -pthread -std=c++11    // Compiling the client.cpp code
-
-
-Open another terminal :
-
-cd ServerAndClients
-./server    // To run the server
-
-In another terminal :
-
-cd ServerAndClients
-./client    // To run the client
-Then enter the username.
-Create some more clients by following the above command
-
-After this, direct messages can be sent using the format : @username message_to_be_sent
-
-Type exit to or Ctrl+C on the terminal leave the chat.
