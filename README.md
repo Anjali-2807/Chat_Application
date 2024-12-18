@@ -1,7 +1,7 @@
 
 # Chat Application on terminal
 
-This is a simple chat application built in C++ using Sockets that allows multiple clients to communicate with each other. It supports direct messages (DM) between users, writes all messages into a file for historical reference, and can handle multiple users concurrently.
+This is a simple chat application built in C++ using Sockets that allows multiple clients to communicate with each other. It supports direct messages (DM) between users, writes all messages into a file for historical reference, and can handle multiple users concurrently. For now, group chats are not allowed.
 
 
 # Features
