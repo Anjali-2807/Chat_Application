@@ -42,7 +42,7 @@ Compile the client.cpp file
 ```bash
   g++ client.cpp -o client -pthread -std=c++11
 ```
-After compiling server and client cpp files, two files, namely server and cpp would be created. They are being created in the uploaded ServerAndClients folders when I was testing the application in Visual Studio Code.
+After compiling server and client cpp files, two files namely server and cpp would be created. They are being created in the uploaded ServerAndClients folders when I was testing the application in Visual Studio Code.
 
 Open another terminal and in that :
 
