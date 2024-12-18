@@ -61,7 +61,8 @@ Run the client
 ```
 
 🔹 Group messages are not allowed for now. When a user joins the terminal, their arrival will be visible to all participants by a message, "username has joined the chat!"
-   If a user tried to send a message visible to everyone, the user gets the message "Invalid message. Please send only direct messages starting with @username."
+   
+   If a user tries to send a message visible to everyone, the user gets the message "Invalid message. Please send only direct messages starting with @username."
 
 🔹 Direct Messages (DM): To send a direct message (DM) to a specific user, use the following format:
 ```bash
